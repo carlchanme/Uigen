@@ -41,6 +41,10 @@ jobs:
         with:
           anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
 
+          # This is an optional setting that allows Claude to read CI results on PRs
+          additional_permissions: |
+            actions: read
+
           prompt: |
             The project is already set up with all dependencies installed.
             The server is already running at localhost:3000. Logs from it

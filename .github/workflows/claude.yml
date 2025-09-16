@@ -52,7 +52,11 @@ jobs:
             db with the 'sqlite3' cli. If needed, use the mcp__playwright
             set of tools to launch a browser and interact with the app.
 
-            When responding to issues or PR comments, always use `gh issue comment` or `gh pr comment` to post your response.
+            IMPORTANT: You are responding to a GitHub issue or PR comment. You MUST post your response as a comment using the GitHub CLI. Do not just provide text output - you must use the Bash tool to run the appropriate command:
+            - For issues: Use `gh issue comment <issue_number> --body "your response"`
+            - For PR comments: Use `gh pr comment <pr_number> --body "your response"`
+
+            Always end your workflow by posting a comment with your findings or response.
 
           claude_args: |
             --mcp-config '{

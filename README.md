@@ -2,6 +2,10 @@
 
 AI-powered React component generator with live preview.
 
+✨ **Now with automated Claude code review workflows!**
+
+🔧 Testing updated API key configuration...
+
 ## Prerequisites
 
 - Node.js 18+

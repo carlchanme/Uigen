@@ -71,4 +71,22 @@ jobs:
                   ]
                 }
               }
-            }' --allowedTools "Bash(npm:*),Bash(sqlite3:*),Bash(gh issue comment:*),Bash(gh pr comment:*),Bash(gh issue view:*),Bash(gh pr view:*),mcp__playwright__browser_snapshot,mcp__playwright__browser_click,mcp__playwright__browser_init,mcp__playwright__browser_navigate,mcp__playwright__browser_get_context"
+            }' --allowedTools "
+              Bash(npm:*),
+              Bash(sqlite3:*),
+              Bash(gh issue comment:*),
+              Bash(gh pr comment:*),
+              Bash(gh issue view:*),
+              Bash(gh pr view:*),
+              Bash(gh issue list:*),
+              Bash(gh pr list:*),
+              Bash(echo:*),
+              Bash(env:*),
+              Bash(git log:*),
+              Bash(git status:*),
+              mcp__playwright__browser_snapshot,
+              mcp__playwright__browser_click,
+              mcp__playwright__browser_init,
+              mcp__playwright__browser_navigate,
+              mcp__playwright__browser_get_context
+            "

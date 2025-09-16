@@ -4,7 +4,7 @@ AI-powered React component generator with live preview.
 
 ✨ **Now with automated Claude code review workflows!**
 
-🔧 Testing updated GitHub token permissions...
+🔧 Testing updated API key configuration...
 
 ## Prerequisites
 
